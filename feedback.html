@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1">
+    <title>MaslovM</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/feedback.js"></script>
+</head>
+<body class="page">
+        <header class="header">
+            <div class="wrap">
+                <div class="header-inner">
+                    <nav class="header-inner-menu">
+                        <ul class="header-inner-menu__list">
+                            <li class="header-inner-menu__item"><a class="header-inner-menu__link" href="home.html">Home</a></li>
+                            <li class="header-inner-menu__item"><a class="header-inner-menu__link" href="projects.html">Projects</a></li>
+                            <li class="header-inner-menu__item"><a class="header-inner-menu__link" href="bublik.html">My cat</a></li>
+                        </ul>
+                    </nav>
+                    <a class="active" href="feedback.html"><img src="resources/feedback.png" class="header-inner__logo" alt=""></a>
+                </div>
+            </div>
+        </header>
+
+        <div class="page-content">
+            <div class="page-block">
+                <div class="wrap">
+                    <h2 class="title page-block__title">Обратная связь о сайте</h2>
+                    <div class="feedback-block">
+                        <form class="feedback-form">
+                            <div class="feedback-form__item">
+                                <textarea class="feedback-form__textarea autoExpand" placeholder="Enter your thoughts" data-min-rows='3' autofocus></textarea>
+                            </div>
+                            <div class="feedback-form__item">
+                                <button class="feedback-form__button" type="button" onclick="onFeedbackPost()">Post</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="page-block page-block-gray">
+                <div class="wrap">
+                    <h2 class="page-block__title">Отзывы</h2>
+                    <div class="feedback-block">
+                        <div class="feedback-posts-block" style="visibility: hidden">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="wrap">
+                <div class="footer-inner">
+                    <div class="socials-block">
+                        <div class="socials-block-item">
+                            <a href="https://t.me/mathsl0ve" target="_blank"><img class="socials-block__img" src="resources/tg.png" alt=""></a>
+                        </div>
+                        <div class="socials-block-item">
+                            <a href="https://t.me/mathsl0ve" target="_blank"><img class="socials-block__img" src="resources/tg.png" alt=""></a>
+                        </div>
+                        <div class="socials-block-item">
+                            <a href="https://t.me/mathsl0ve" target="_blank"><img class="socials-block__img" src="resources/tg.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+</body>
+</html>
