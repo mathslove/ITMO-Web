@@ -98,7 +98,8 @@ function delayedShake() {
     }, () => {
         shakeRandomImages()
         let button = document.getElementById("petCatTrigger")
-        button.textContent = "Сделано)"
+        button.textContent = "Ещё)"
+        button.classList.remove("disabled")
     });
 }
 
